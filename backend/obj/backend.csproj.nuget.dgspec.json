@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/u23322/Documents/daroca/backend/backend.csproj": {}
+    "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj": {}
   },
   "projects": {
-    "/Users/u23322/Documents/daroca/backend/backend.csproj": {
+    "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/u23322/Documents/daroca/backend/backend.csproj",
+        "projectUniqueName": "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "/Users/u23322/Documents/daroca/backend/backend.csproj",
-        "packagesPath": "/Users/u23322/.nuget/packages/",
-        "outputPath": "/Users/u23322/Documents/daroca/backend/obj/",
+        "projectPath": "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\ConsertaSmartCentro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/u23322/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ConsertaSmartCentro\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
