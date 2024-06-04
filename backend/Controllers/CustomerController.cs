@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication.OAuth.Claims;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-[Route("/[contoller]")]
+[Route("/[controller]")]
 [ApiController]
 public class CustomerController : ControllerBase {
    
@@ -40,7 +40,7 @@ public class CustomerController : ControllerBase {
        }
        this.context.Customer.Add(customer);
        this.context.SaveChanges();
-       return CreatedAtAction(nameof(GetCustomer), new {id = customer.Id}, customer);
+       return CreatedAtAction(nameof(GetCustomer), new {id = customer.CustomerId}, customer);
    }
 
   [HttpDelete("{id}")]

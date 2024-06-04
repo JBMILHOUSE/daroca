@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj": {}
+    "/Users/u23322/Documents/daroca/backend/backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj": {
+    "/Users/u23322/Documents/daroca/backend/backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj",
+        "projectUniqueName": "/Users/u23322/Documents/daroca/backend/backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\ConsertaSmartCentro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ConsertaSmartCentro\\Documents\\cotuca\\TI224\\daroca\\backend\\obj\\",
+        "projectPath": "/Users/u23322/Documents/daroca/backend/backend.csproj",
+        "packagesPath": "/Users/u23322/.nuget/packages/",
+        "outputPath": "/Users/u23322/Documents/daroca/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ConsertaSmartCentro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/u23322/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -47,6 +42,10 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -56,6 +55,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -81,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
